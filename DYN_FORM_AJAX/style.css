@@ -1,0 +1,30 @@
+body {
+  width: 600px;
+}
+
+div {
+  margin: 5px 0px;
+}
+
+.longtext input {
+  width: 400px;
+}
+
+.shorttext input, .combo select {
+  width: 150px;
+}
+
+.number input {
+  width: 50px;
+}
+
+textarea {
+  width: 550px;
+  height:100px;
+}
+
+div span {
+  display: inline-block;
+  width: 150px;
+  margin-right: 5px;
+}

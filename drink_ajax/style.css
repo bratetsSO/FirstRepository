@@ -1,0 +1,22 @@
+#container{
+  width: 800px;
+  display: flex;
+}
+
+.buttons {
+  /*display: inline;*/
+  width: 50%;
+}
+
+.buttons p {
+  margin-bottom: 15px;
+}
+
+.buttons input {
+    font-size: 1em;
+    display: block;
+    margin-bottom: 5px;
+    width: 300px;
+    text-align: left;
+  };
+  

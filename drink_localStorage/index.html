@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>drink</title>
+  <script type="text/javascript" src="HashStorage.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class='buttons'>
+      <p>ВЫПИТЬ</p>
+      <input type='button' value='"+" ввод информации о напитке' onclick='newDrink()'>
+      <input type='button' value='"?" получение информации о напитке' onclick='getDrinkInfoByName()'>
+      <input type='button' value='"-" удаление информации о напитке' onclick='deleteDrink()'>
+      <input type='button' value='"!" перечень всех напитков' onclick='getAllDrinksName()'>
+    </div>
+    <div class='buttons'>
+      <p>ЗАКУСИТЬ</p>
+      <input type='button' value='"+" ввод информации о блюде' onclick='newDish()'>
+      <input type='button' value='"?" получение информации о блюде' onclick='getDishInfoByName()'>
+      <input type='button' value='"-" удаление информации о блюде' onclick='deleteDish()'>
+      <input type='button' value='"!" перечень всех блюд' onclick='getAllDishesName()'>
+    </div>
+  </div>
+</body>
+</html>

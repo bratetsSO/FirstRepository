@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>DYN_FORM</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form action="http://fe.it-academy.by/TestForm.php" method="POST" target="_blank">
+    <div>
+      <span>Разработчики:</span><input type='text' name='author' id="author" class="longtext"><span id="author_error" />
+    </div>
+    <div>
+      <span>Название сайта:</span><input type='text' name='title' id="title" class="longtext"><span id="title_error" />
+    </div>
+    <div>
+      <span>URL сайта:</span><input type='text' name='url' id="url" class="middletext"><span id="url_error" />
+    </div>
+    <div>
+      <span>Дата запуска сайта:</span><input type='text' name='startdate' id="startdate" class="shorttext"
+        placeholder="дд.мм.гггг"><span id="startdate_error" />
+    </div>
+    <div>
+      <span>Посетителей в сутки:</span><input type='text' name='persons' id="persons" class="shorttext"><span
+        id="persons_error" />
+    </div>
+    <div>
+      <span>E-mail для связи:</span><input type='text' name='email' id='email' class="shorttext"><span
+        id="email_error" />
+    </div>
+    <div>
+      <span>Рубрика каталога:</span>
+      <select name='rubric' id="rubric">
+        <option value=1>здоровье</option>
+        <option value=2>домашний уют</option>
+        <option value=3 selected>бытовая техника</option>
+      </select><span id="rubric_error" />
+    </div>
+    <div>
+      <span>Размещение:</span>
+      <input type='radio' name='public' value=1 Id="public_1"><span class='SRadio8a'>бесплатное</span>
+      <input type='radio' name='public' value=2><span class='SRadio8a'>платное</span>
+      <input type='radio' name='public' value=3><span class='SRadio8a'>VIP</span><span id="public_error" />
+    </div>
+    <div>
+      <span>Разрешить отзывы:</span>
+      <input type='checkbox' name='comments' id="comments"><span id="comments_error" />
+    </div>
+    <div>
+      <span>Описание сайта:</span><br />
+      <textarea name='article' id="article"></textarea>
+      <span id="article_error" />
+    </div>
+    <div>
+      <input type='submit' value='Опубликовать' onclick="checkAll()">
+    </div>
+  </form>
+</body>
+<script src="script.js"></script>
+
+</html>

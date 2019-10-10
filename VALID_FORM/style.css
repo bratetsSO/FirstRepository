@@ -1,0 +1,51 @@
+body {
+  width: auto; /*800px*/
+}
+
+div {
+  margin: 5px 0px;
+}
+
+input, select {
+  width: 150px;
+}
+
+input[type="radio"]{
+  width: 15px;
+}
+span.SRadio8a{
+  width: auto;
+}
+
+textarea {
+  width: 550px;
+  height:100px;
+}
+
+div span {
+  display: inline-block;
+  width: 150px;
+  margin-right: 5px;
+}
+
+.longtext {
+  width: 400px;
+}
+
+.middletext{
+  width: 250px;
+}
+
+.shorttext {
+  width: 150px;
+}
+
+#comments{
+  width: 15px;
+}
+
+span[id$="_error"] {
+  width: auto;
+  color: red;
+  margin-left: 10px;
+}

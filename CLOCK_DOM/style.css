@@ -1,0 +1,54 @@
+body {
+  width: 300px;
+}
+
+/*#clockface {
+  background-color: orange;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}*/
+
+#clock {/*часы цифровые*/
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100px;
+  top: 50px;
+  left: 100px;
+}
+
+#hourhand {
+  position: absolute;
+  background-color: brown;
+  border-radius: 5px;
+  width: 10px;
+  height: 80px;
+  top: 75px;
+  left: 145px;
+  transform-origin: 50% 75px;
+  }
+
+#minutehand {
+  position: absolute;
+  background-color: #999999;
+  border-radius: 4px;
+  width: 8px;
+  height: 100px;
+  top: 54px;
+  left: 146px;
+  transform-origin: 50% 96px;
+}
+
+#secondhand {
+  position: absolute;
+  background-color: red;
+  border-radius: 1px;
+  width: 2px;
+  height: 120px;
+  top: 32px;
+  left: 149px;
+  transform-origin: 50% 119px;
+}
