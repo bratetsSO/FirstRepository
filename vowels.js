@@ -1,4 +1,5 @@
 function getAnswer(question) {
+  //test github
   var sAnswer = prompt(question);
   while (sAnswer == "" || sAnswer == null) {
     alert("Ответ не может быть пустым!");
